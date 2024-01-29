@@ -4,8 +4,14 @@
 def palindrome(num):
     return str (num) == str(num) [::-1]
 
-number = 198
-if palindrome(number):
-    print(f"{number} is a  palindrome")
+number1 = 198
+if palindrome(number1):
+    print(f"{number1} is a  palindrome")
 else:
-    print(f"{number} is not a palendrome")
+    print(f"{number1} is not a palendrome")
+
+number2 = 121
+if palindrome(number2):
+    print(f"{number2} is a  palindrome")
+else:
+    print(f"{number2} is not a palendrome")
